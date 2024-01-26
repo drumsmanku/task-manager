@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.navbar{
+  width: 100%;
+  background-color: #333;
+  height: 7%;
+}
+.navBarContent{
+  padding: 0.8rem 2rem 0.8rem 2rem ;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.logoutButton{
+  background: none;
+  border: none;
+  outline: none ;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.loginButton{
+  background:none;
+  color: white;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+
+}
+.signupButton{
+  background:none;
+  color: white;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+}
+
+.mainContent{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  
+}
